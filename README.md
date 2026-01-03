@@ -64,7 +64,6 @@ ShowSeconds: 0
 TimeFormat: HH':'mm
 DateFormat: dd MMM yyyy
 WeekdayFormat: ddd
-WeekdayFormatCustom: ''
 
 TopLine: '%weekday%, %date% | %time%'
 BottomLine: CPU %cpu% | RAM %ram%
@@ -78,19 +77,19 @@ MaxWidth: 0
 TextSpacing: 0
 
 WebContentsItems:
-  - Url: https://raw.githubusercontent.com/wafarifki/quotes-id/refs/heads/main/quotes.json
+  - Url: https://quotes-id-random.wafarifqianafin.workers.dev/
     BlockStart: ''
-    Start: '"'
-    End: '"'
+    Start: ''
+    End: ''
     ContentMode: xmlHtml
     SearchReplace:
       - Search: ''
         Replace: ''
     MaxLength: 80
-WebContentsUpdateInterval: 15
+WebContentsUpdateInterval: 10
 
 TimeZones:
-  - 'Asia/Jakarta'
+  - Asia/Jakarta
 
 TimeStyle:
   Hidden: 0
@@ -113,7 +112,7 @@ DateStyle:
   FontStyle: normal
   FontStretch: normal
   CharacterSpacing: 0
-
+  
 oldTaskbarOnWin11: 0
 ```
 
