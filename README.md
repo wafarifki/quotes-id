@@ -1,3 +1,5 @@
+<img width="100%" height="1024" alt="image" src="https://github.com/user-attachments/assets/96ef287e-79cb-4884-865e-c298f9885065" />
+
 # Taskbar Clock Customization (Windhawk)
 
 Konfigurasi **Taskbar Clock Customization** untuk **Windhawk** dengan tampilan **minimalis & modern**, menampilkan **CPU & RAM**, serta **tooltip berisi quote motivasi Bahasa Indonesia** yang **auto rotate** dari sumber eksternal.
@@ -86,7 +88,7 @@ WebContentsItems:
       - Search: ''
         Replace: ''
     MaxLength: 80
-WebContentsUpdateInterval: 10
+WebContentsUpdateInterval: 1
 
 TimeZones:
   - Asia/Jakarta
@@ -148,6 +150,28 @@ Saat kursor diarahkan ke jam, tooltip akan menampilkan:
   <img width="450" height="168" alt="Tampilan Tooltip" src="https://github.com/user-attachments/assets/fb94da72-40bb-4ec9-8908-a66136067bca" />
 </p>
 
-
-> 💡 **Catatan:**  
+> **Catatan:**  
 > Quote di tooltip akan berganti secara otomatis setiap beberapa detik sesuai dengan konfigurasi `WebContentsUpdateInterval`.
+
+## Ingin Berkontribusi Menambah Quote?
+
+Repositori ini **terbuka untuk kontribusi siapa pun**.  
+Kalau kamu punya quote singkat yang relevan untuk developer, pekerja, atau motivasi harian — jangan ragu untuk ikut berkontribusi.
+
+### Cara Berkontribusi
+1. **Buat / Buka 1 Issue baru** di repositori ini
+2. Tulis **quote singkat** yang ingin kamu tambahkan  
+   (usahakan tidak terlalu panjang dan tetap relevan)
+3. Tambahkan keterangan singkat jika perlu (misalnya: *developer*, *motivasi kerja*, dll)
+
+Jika issue yang kamu buat **ditutup (closed)**, artinya:
+> Quote tersebut **sudah berhasil ditambahkan** dan akan muncul secara acak di tooltip.
+
+---
+
+**Catatan Kontribusi**
+- Quote sebaiknya singkat, padat, dan mudah dibaca di tooltip
+- Hindari typo, emoji berlebihan, atau kalimat terlalu panjang
+- Kontributor tidak perlu mengubah kode apa pun — cukup lewat issue
+
+Terima kasih sudah ikut membuat repositori ini lebih hidup
