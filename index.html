@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="quote">Loading...</div>
+
+    <script>
+        fetch('quotes.json')
+            .then(response => response.json())
+            .then(quotes => {
+                const randomIndex = Math.floor(Math.random() * quotes.length);
+                document.getElementById('quote').innerText = quotes[randomIndex];
+            })
+            .catch(() => {
+                document.getElementById('quote').innerText = 'Tetap jalan, jangan berhenti.';
+            });
+    </script>
+</body>
+</html>
