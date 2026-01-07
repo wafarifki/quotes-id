@@ -19,17 +19,6 @@ Cocok untuk **developer**, **power user**, dan siapa pun yang ingin taskbar lebi
 
 ---
 
-## Tentang Repositori `quotes-id`
-
-### Apa itu `quotes-id`?
-`quotes-id` adalah repositori **JSON** yang berisi kumpulan **quote singkat Bahasa Indonesia**.
-
-### Fungsinya
-- Menjadi **sumber quote** untuk tooltip
-- Quote bisa di-update kapan saja tanpa mengubah konfigurasi Windhawk
-- Membuat tooltip terasa hidup karena konten **berubah otomatis**
----
-
 ## Tutorial Instalasi Windhawk
 1. Buka situs resmi Windhawk  
    https://windhawk.net atau download melalui link berikut: https://ramensoftware.com/downloads/windhawk_setup.exe
